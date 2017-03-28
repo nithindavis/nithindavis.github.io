@@ -79,6 +79,12 @@ table {
 
 }
 
+.profilePic {
+  width: 20rem;
+  height: 20rem;
+  background-color: #ccc;
+}
+
 .tile {
 
   width:20rem;
@@ -93,12 +99,14 @@ table {
 
 img {
   width: inherit;
+
 }
 div.imgFrame {
   border: 1px solid #ccc;
   overflow: hidden;
   width:inherit;
   height:inherit;
+  background-color: #ccc;
 }
 
 div.imgFrame img {
@@ -112,4 +120,11 @@ div.imgFrame:hover img {
 }
 div.imgFrame:hover {
   border: 1px solid #666;
+}
+
+.expTable td,th{
+  padding-right: 10px;
+}
+h2.expTable {
+  color: red;
 }
